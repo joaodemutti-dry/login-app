@@ -9,3 +9,12 @@ npm install
 ```bash
 npm run e2e
 ```
+
+***
+
+## Tecnologias utilizadas
+- react-query
+- react-hook-form
+- zod
+- cypress
+- next-auth
