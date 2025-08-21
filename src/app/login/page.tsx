@@ -4,7 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { signIn } from 'next-auth/react'
 import { z } from "zod"
 import { useMutation } from "@tanstack/react-query";
-import { loginDto, loginSchema } from "@/dtos/user.dto";
+import { loginDto, loginSchema } from "@/dtos/login.dto";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 
